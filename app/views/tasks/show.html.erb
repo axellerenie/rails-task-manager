@@ -1,0 +1,6 @@
+<h2><%= @task.description %></h2>
+<p>Done: <%= @task.done %></p>
+<p>Created: <%= @task.created_at.strftime("%d/%m/%Y") %></p>
+<p><%= link_to "back to index", tasks_path %></p>
+
+<!-- Should display the task's details (content, date of creation, etc.) and a back-link to the index page. -->
